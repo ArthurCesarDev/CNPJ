@@ -49,35 +49,46 @@
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
                         <h6 class="mb-0">CNPJs - FORNECEDORES</h6>
-                        <a href="">Detalhes</a>
+
+                        <form action="" method="GET" class="d-flex" role="search">
+                       <input class="form-control me-2" name="search" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                       </form>
+                        
                     </div>
+                    
                     <div class="table-responsive">
                         <table class="table text-start align-middle table-bordered table-hover mb-0">
                             <thead>
                                 <tr class="text-dark">
-                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    
                                     
                                     <th scope="col">Empresa</th>
-                                    <th scope="col">CNPJ</th>
                                     <th scope="col">E-mail</th>
+                                    <th scope="col">CNPJ</th>
                                     <th scope="col">Responsavel</th>
                                     <th scope="col">Link</th>
                                     
                                 </tr>
                             </thead>
                             <tbody>
+                            
                             @foreach($dados as $dado)
                                 <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    
                                     
                                     <td>{{$dado->empresa}}</td>
                                     <td>{{$dado->email}}</td>
                                     <td>{{$dado->cnpj}}</td>
                                     <td>{{$dado->nome}}</td>         
-                                    <td><a href="{{ url('/sigilo/' . $dado->id) }}"><button type="button" class="btn btn-success">feito</button></a></td>                    
+                                    <td><a href="{{ url('/sigilo/' . $dado->id) }}"><button type="button" class="btn btn-success">Doc</button></a></td>                    
                                 </tr>
                                 
                                 @endforeach
+                           
+                               
+                                
+                                
                             </tbody>
                         </table>
                     </div>
@@ -112,10 +123,10 @@
     <script src="{{url('assets1/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}"></script>
     <script src="{{url('assets1/js/main.js')}}"></script>
     
-   
-
-    <!-- Template Javascript -->
+   <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+   
 
 
 @endsection

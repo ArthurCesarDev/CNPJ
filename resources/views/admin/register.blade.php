@@ -45,7 +45,7 @@ e lojas forem sendo divulgados.</p>
 @csrf 
 <input style="margin-top:20px;" name="empresa" class="form-control form-control-sm" type="text" placeholder="Nome: Empresa" aria-label=".form-control-sm example">
 <input style="margin-top:20px;" name="cnpj" class="form-control form-control-sm" type="text" placeholder="E-mail" aria-label=".form-control-sm example">
-<input style="margin-top:20px;" name="email" class="form-control form-control-sm" type="text" placeholder="CNPJ" aria-label=".form-control-sm example">
+<input style="margin-top:20px;" name="email" class="form-control form-control-sm" type="number" placeholder="CNPJ" aria-label=".form-control-sm example">
 <input style="margin-top:20px;" name="nome" class="form-control form-control-sm" type="text" placeholder="Responsável" aria-label=".form-control-sm example">
 
 <button style="margin-top:20px;"  class="btn btn-outline-secondary">enviar</button>

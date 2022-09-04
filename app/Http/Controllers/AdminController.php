@@ -44,8 +44,8 @@ class AdminController extends Controller
    $newUser = new User();
    $newUser->empresa = $request->empresa;
    $newUser->email = $request->email;
-   $newUser->nome = $request->nome;
    $newUser->cnpj = $request->cnpj;
+   $newUser->nome = $request->nome;
    $newUser->save();
 
    return redirect('/sucesso');   
@@ -53,12 +53,21 @@ class AdminController extends Controller
    $request->session()-flash('alerta-sucess', 'campos obrigatorio');
    return redirect()->route('/register');
    }
+
   public function sigilo(Request $request){
 
-    $dados = User::get();
+    $search = $request['search'] ?? "";
+     if($search != "") {
 
-    return view('admin/page',[
-        'dados' => $dados
+        $dados = User::where('empresa','like',"%$search%")->orWhere('cnpj', 'LIKE', "%$search%")->get();
+      
+
+    }else {
+        $dados = User::get();
+    }   
+        return view('admin/page',[
+        'dados' => $dados,
+        
     ]);
 
 }
@@ -75,5 +84,6 @@ public function sigiloId($id){
 
 }
 
+
+
   
-}

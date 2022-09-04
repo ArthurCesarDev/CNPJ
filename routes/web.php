@@ -11,5 +11,6 @@ Route::get('/palavra', [AdminController::class, 'dia']);
     Route::get('/sigilo', [AdminController::class, 'sigilo']);
     Route::get('/sucesso', [AdminController::class, 'sucesso']);
     Route::get('/sigilo/{id}', [AdminController::class, 'sigiloId']);
+    Route::get('/search',[AdminController::class, 'search']);
     
 

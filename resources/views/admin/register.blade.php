@@ -54,11 +54,11 @@ e lojas forem sendo divulgados.</p>
 
 </div>
          
-<p style="font-size:12px;margin-top:40px;" class="text-lowercase text-center text-success">Última Atualização do anexos 04/08/2022.</p>
+<p style="font-size:12px;margin-top:40px;" class="text-lowercase text-center text-success">Última Atualização do || anexo  04/08/2022.</p>
 <p style="margin-top:80px;" class="text-center">E-mail FAQ dúvidas : atendimentocnpj@hortifruti.com.br</p>
 <div class="container-fluid">
 
-<img src="{{url('assets1/img/fim.png')}}" class="rounded float-end" alt="...">
+
 
 
 </div>

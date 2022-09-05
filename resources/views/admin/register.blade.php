@@ -28,7 +28,7 @@ em 30/09/2022, a proposta de incorporação societária da rede Hortifruti Natur
 e lojas forem sendo divulgados.</p>
 
 <br>
-<p class="text-center">Solicitamos sua confirmação para essa nova Etapa, Juntos, Mais Fortes!! </p>
+<p class="text-center">Solicitamos sua confirmação para essa nova Etapa! Juntos Somos Mais Fortes! </p>
 
 
 @if ($errors->any())

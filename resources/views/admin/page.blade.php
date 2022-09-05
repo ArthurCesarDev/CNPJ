@@ -64,8 +64,8 @@
                                     
                                     
                                     <th scope="col">Empresa</th>
-                                    <th scope="col">E-mail</th>
                                     <th scope="col">CNPJ</th>
+                                    <th scope="col">Email</th>
                                     <th scope="col">Responsavel</th>
                                     <th scope="col">Link</th>
                                     

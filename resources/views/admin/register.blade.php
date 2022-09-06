@@ -28,9 +28,12 @@ em 30/09/2022, a proposta de incorporação societária da rede Hortifruti Natur
 e lojas forem sendo divulgados.</p>
 
 <br>
-<p class="text-center font-weight-bold">Solicitamos sua confirmação para essa nova Etapa!
-para confirmar que recebeu o comunicado e alterou o cadastro do Hortifruti Natural da Terra em seus sistemas preenchendo os campos abaixo.<br>
-Juntos somos mais fortes! </p>
+<p class="text-center font-weight-bold">Solicitamos sua confirmação para essa nova Etapa!<br>
+
+Para confirmar que recebeu o comunicado e alterou o cadastro do Hortifruti Natural da Terra em seus sistemas preencha os campos abaixo.<br>
+
+</p>
+<p class="text-center font-weight-bold"> Juntos somos mais fortes! </p>
 
 
 @if ($errors->any())

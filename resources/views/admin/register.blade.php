@@ -30,7 +30,7 @@ e lojas forem sendo divulgados.</p>
 <br>
 <p class="text-center font-weight-bold">Solicitamos sua confirmação para essa nova Etapa!<br>
 
-Para confirmar que recebeu o comunicado e alterou o cadastro do Hortifruti Natural da Terra em seus sistemas preencha os campos abaixo.<br>
+Para confirmar que recebeu o comunicado e alterou o cadastro do Hortifruti Natural da Terra em seus sistemas preencha os campos abaixo.
 
 </p>
 <p class="text-center font-weight-bold"> Juntos somos mais fortes! </p>

@@ -59,7 +59,7 @@ Para confirmar que recebeu o comunicado e alterou o cadastro do Hortifruti Natur
 
 </div>
          
-<p style="font-size:12px;margin-top:40px;" class="text-lowercase text-center text-success">Última Atualização do || anexo  24/08/2022.</p>
+<p style="font-size:12px;margin-top:40px;" class="text-lowercase text-center text-success">Última Atualização do || anexo  06/09/2022.</p>
 <p style="margin-top:80px;" class="text-center">E-mail FAQ dúvidas : atendimentocnpj@hortifruti.com.br</p>
 <div class="container-fluid">
 
